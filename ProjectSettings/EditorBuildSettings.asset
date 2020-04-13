@@ -20,4 +20,10 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Scene2.unity
     guid: a39b0b36b8cf58e439ee77aeae62ec44
+  - enabled: 1
+    path: Assets/Scenes/Scene3Logs.unity
+    guid: 987f02560300ae544add932e346ed9e3
+  - enabled: 1
+    path: Assets/Scenes/Scene3Conversation.unity
+    guid: e68e77ccf01cb1543b5b97dea4b8289d
   m_configObjects: {}
