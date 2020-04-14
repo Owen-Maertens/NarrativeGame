@@ -383,10 +383,10 @@ MonoBehaviour:
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
   m_FontData:
     m_Font: {fileID: 12800000, guid: a708df3327e77394fb2f8a38fdcc358a, type: 3}
-    m_FontSize: 45
+    m_FontSize: 35
     m_FontStyle: 0
     m_BestFit: 0
-    m_MinSize: 4
+    m_MinSize: 3
     m_MaxSize: 50
     m_Alignment: 1
     m_AlignByGeometry: 0
@@ -2805,6 +2805,7 @@ GameObject:
   - component: {fileID: 1992465684}
   - component: {fileID: 1992465683}
   - component: {fileID: 1992465698}
+  - component: {fileID: 1992465699}
   m_Layer: 0
   m_Name: Flowchart
   m_TagString: Untagged
@@ -2814,7 +2815,7 @@ GameObject:
   m_IsActive: 1
 --- !u!114 &1992465683
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -2828,7 +2829,7 @@ MonoBehaviour:
   indentLevel: 0
 --- !u!114 &1992465684
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -2840,8 +2841,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 11
   indentLevel: 0
-  storyText: "Programming: \nOwen Maertens\n\nStory:\nLucas Gollan\nErica Mitton\n\nArt:\nErica
-    Mitton\n\nNarrative Implimentation:\nOwen Maertens"
+  storyText: "Story:\nLucas Gollan\nErica Mitton\nOwen Maertens\n\nProgramming/Implementation:
+    \nOwen Maertens\n\nWriting:\nLucas Gollan\n\nArt:\nErica Mitton\n\nMusic:\nOwen
+    Maertens"
   description: 
   character: {fileID: 0}
   portrait: {fileID: 0}
@@ -2856,7 +2858,7 @@ MonoBehaviour:
   setSayDialog: {fileID: 0}
 --- !u!114 &1992465685
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -2871,7 +2873,7 @@ MonoBehaviour:
   sayDialog: {fileID: 1244435617}
 --- !u!114 &1992465686
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -2896,7 +2898,7 @@ MonoBehaviour:
     booleanVal: 0
 --- !u!114 &1992465687
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -2921,7 +2923,7 @@ MonoBehaviour:
     booleanVal: 0
 --- !u!114 &1992465688
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -3097,6 +3099,7 @@ MonoBehaviour:
   description: 
   eventHandler: {fileID: 1992465694}
   commandList:
+  - {fileID: 1992465699}
   - {fileID: 1992465693}
   - {fileID: 1992465692}
   - {fileID: 1992465686}
@@ -3126,8 +3129,9 @@ MonoBehaviour:
     width: 1114
     height: 859
   selectedBlocks:
-  - {fileID: 1992465695}
-  selectedCommands: []
+  - {fileID: 1992465690}
+  selectedCommands:
+  - {fileID: 1992465684}
   variables: []
   description: 
   stepPause: 0
@@ -3155,7 +3159,7 @@ Transform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &1992465698
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -3174,6 +3178,20 @@ MonoBehaviour:
     stringVal: 
   startIndex: 0
   callMode: 0
+--- !u!114 &1992465699
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1992465682}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b359b09a7ba2e4af981f07c07f8af85a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 14
+  indentLevel: 0
 --- !u!1 &2005830293
 GameObject:
   m_ObjectHideFlags: 0

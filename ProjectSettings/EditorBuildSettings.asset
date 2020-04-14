@@ -26,4 +26,16 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Scene3Conversation.unity
     guid: e68e77ccf01cb1543b5b97dea4b8289d
+  - enabled: 1
+    path: Assets/Scenes/Endings/Conquer.unity
+    guid: 9ad83fd932e0cef4f806ca87f5a4c376
+  - enabled: 1
+    path: Assets/Scenes/Endings/Genocide.unity
+    guid: 0457826c2ba5f204888805cbf24407c6
+  - enabled: 1
+    path: Assets/Scenes/Endings/Seperate.unity
+    guid: a99aca70d4385bf4f97ef2f3deeb2a14
+  - enabled: 1
+    path: Assets/Scenes/Endings/TotalPeace.unity
+    guid: 57c5f04cc6c1f0f488964b6c5573887c
   m_configObjects: {}
